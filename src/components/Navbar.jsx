@@ -115,7 +115,7 @@ const Navbar = () => {
       </div>
       <motion.div>
         <motion.button
-          className="bg-yellow-300 py-2 px-4 rounded transition-all duration-300"
+          className="bg-yellow-300 py-2 px-4 rounded transition-all duration-300 md:mx-2 sm:mx-10 sm:p-1"
           whileHover={{
             scale: 1.05,
             backgroundColor: "#f59e0b",
@@ -125,7 +125,7 @@ const Navbar = () => {
           animate={isLoaded ? { opacity: 1 } : {}}  // Fade in when loaded
           transition={{ duration: 0.5 }} // Fade-in transition
         >
-          Request For Quotes
+          Request For Quotations
         </motion.button>
       </motion.div>
     </motion.div>
